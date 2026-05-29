@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    <title>강남 셔츠룸 | 마포가 아닌 진짜 세계로</title>
+    <meta name="description" content="마포의 평범함은 잊으십시오. 이제 강남 셔츠룸이 정의하는 새로운 규범 속으로. 압도적인 서버 웜업과 타협 없는 럭셔리. 정보가 곧 권력입니다.">
+    <meta name="keywords" content="강남 셔츠룸, 마포 추천, 서버 웜업, 강남역 라운지, 럭셔리 유흥, 서울 오피, 정보">
+    <link rel="canonical" href="https://sf-t3-1779642675702-012.pages.dev">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sf-t3-1779642675702-012.pages.dev">
+    <meta property="og:title" content="강남 셔츠룸 | 마포가 아닌 진짜 세계로">
+    <meta property="og:description" content="서버 웜업의 기준을 다시 씁니다. 강남의 압도적인 퀄리티를 경험하세요.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/000000/D4AF37?text=SEOUL+NOIR">
+
+    <style>
+        /* DESIGN SYSTEM: NOIR-GOLD EDITORIAL */
+        :root {
+            --color-bg: #050505;
+            --color-text-main: #F0F0F0;
+            --color-text-sub: #888888;
+            --color-accent: #D4AF37; /* Gold */
+            --color-border: #333333;
+            --font-heading: 'Didot', 'Bodoni MT', serif;
+            --font-body: 'Helvetica Neue', 'Apple SD Gothic Neo', sans-serif;
+            --spacing-unit: 24px;
+            --container-width: 1080px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background-color: var(--color-bg);
+            color: var(--color-text-main);
+            font-family: var(--font-body);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4 {
+            font-family: var(--font-heading);
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            color: var(--color-text-main);
+        }
+
+        h1 { font-size: 3.5rem; line-height: 1.1; margin-bottom: var(--spacing-unit); }
+        h2 { font-size: 2.5rem; margin-bottom: calc(var(--spacing-unit) * 1.5); border-bottom: 1px solid var(--color-accent); display: inline-block; padding-bottom: 10px; }
+        h3 { font-size: 1.5rem; color: var(--color-accent); margin-bottom: 10px; }
+        p { font-size: 1.05rem; color: var(--color-text-sub); margin-bottom: var(--spacing-unit); font-weight: 300; }
+        
+        a { text-decoration: none; color: inherit; transition: color 0.3s ease; }
+        a:hover { color: var(--color-accent); }
+
+        /* LAYOUT */
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 var(--spacing-unit);
+        }
+
+        section { padding: calc(var(--spacing-unit) * 3) 0; }
+
+        /* HEADER & NAV */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(5, 5, 5, 0.95);
+            border-bottom: 1px solid var(--color-border);
+            z-index: 1000;
+            padding: 20px 0;
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 0.05em;
+            color: var(--color-accent);
+            text-transform: uppercase;
+        }
+
+        .nav-links { display: flex; gap: 30px; }
+        .nav-links a { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; }
+
+        .hamburger { display: none; cursor: pointer; }
+        .hamburger span { display: block; width: 25px; height: 2px; background: var(--color-text-main); margin: 5px 0; }
+
+        /* COMPONENTS */
+        .btn-gold {
+            display: inline-block;
+            background: transparent;
+            border: 1px solid var(--color-accent);
+            color: var(--color-accent);
+            padding: 15px 30px;
+            font-family: var(--font-body);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .btn-gold:hover {
+            background: var(--color-accent);
+            color: var(--color-bg);
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .info-card {
+            border: 1px solid var(--color-border);
+            padding: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .info-card:hover {
+            border-color: var(--color-accent);
+            transform: translateY(-5px);
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--color-border);
+            padding: 20px 0;
+        }
+        .faq-question { font-weight: bold; color: var(--color-text-main); margin-bottom: 10px; display: block; }
+        
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 2rem; }
+            .nav-links { display: none; }
+            .hamburger { display: block; }
+            .grid-2 { grid-template-columns: 1fr; }
+            .container { padding: 0 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-wrapper">
+            <a href="#" class="logo">NOIR SEOUL</a>
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">Info</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="container" style="padding-top: 150px; min-height: 80vh; display: flex; flex-direction: column; justify-content: center;">
+            <p style="color: var(--color-accent); letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 20px;">Location: Gangnam &bull; Standard: Absolute</p>
+            <h1>마포는 잊으십시오.<br>이곳이 <span style="color: var(--color-accent);">진짜</span> 시작입니다.</h1>
+            <p style="max-width: 600px; margin-top: 30px;">
+                유흥의 지도가 다시 그려집니다. 단순한 만남이 아닌, 압도적인 <strong>서버 웜업</strong>과 타협 없는 퀄리티를 원하신다면 질문은 여기서 멈춰야 합니다. 강남 셔츠룸이 제공하는 것은 '선택'이 아닌 '확신'입니다.
+            </p>
+            <a href="tel:010-0000-0000" class="btn-gold">지금 바로 연결하기</a>
+        </section>
+
+        <!-- Core Info Section -->
+        <section class="container">
+            <div class="grid-2">
+                <div>
+                    <h2>The Standard</h2>
+                    <p>
+                        우리는 '적당히'라는 단어를 사전에서 지웠습니다. 강남 셔츠룸의 서버 웜업 시스템은 오직 최상위 tier 를 지향합니다. 화려한 외관 뒤에 숨겨진 빈약함을 견딜 수 없는 당신을 위해, 우리는 압도적인 디테일로 답변합니다.
+                    </p>
+                    <p>
+                        마포의 감성? 좋습니다. 하지만今晚은 강남의 무자비한 완벽함이 필요합니다. sistemized luxury 가 무엇인지 경험하십시오.
+                    </p>
+                </div>
+                <div class="info-card">
+                    <h3>System Info</h3>
+                    <ul style="list-style: none; color: var(--color-text-sub); line-height: 2;">
+                        <li><strong>Location:</strong> Gangnam Station 5min</li>
+                        <li><strong>System:</strong> Premium Shirt Room</li>
+                        <li><strong>Capacity:</strong> Private & VIP Rooms</li>
+                        <li><strong>Vibe:</strong> Bold, Edgy, Exclusive</li>
+                        <li><strong>Access:</strong> Valet Parking Available</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Content -->
+        <section class="container" style="background: #0a0a0a; padding: 60px 40px; border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+            <h2 style="border: none; margin-bottom: 40px;">Why Here?</h2>
+            <div class="grid-2">
+                <div>
+                    <h3>01. Uncompromising Quality</h3>
+                    <p>
+                        서버 웜업의 기준은 높을수록 좋습니다. 우리는 평균을 거부합니다. 당신의 기대치를 뛰어넘는 접대, 그리고 그 이상의 만족을 보장하는 시스템. 이것이 강남 셔츠룸이 마포와 다른 이유입니다.
+                    </p>
+                </div>
+                <div>
+                    <h3>02. Absolute Privacy</h3>
+                    <p>
+                        당신의 시간은 소중합니다. 철저한 보안 시스템과 프라이빗한 공간 구성으로, 오직 당신과 당신의 파트너만을 위한 시간이 흐릅니다. discreet service is our motto.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="container">
+            <h2>Information</h2>
+            <div class="faq-item">
+                <span class="faq-question">Q. 마포에서도 이용 가능한가요?</span>
+                <p style="margin-bottom: 0;">A. 본점은 강남에 위치하며, 최상의 서비스를 제공하는 메인 시스템입니다. 마포에서의 경험과는 차원이 다른 퀄리티를 경험하시길 권장합니다.</p>
+            </div>
+            <div class="faq-item">
+                <span class="faq-question">Q. 서버 웜업 시스템이란 무엇인가요?</span>
+                <p style="margin-bottom: 0;">A. 고객의 니즈를 완벽하게 파악하고 선제적으로 대응하는 프리미엄 접대 시스템을 의미합니다. 단순한 응대를 넘어선 프로페셔널한 만족을 제공합니다.</p>
+            </div>
+            <div class="faq-item">
+                <span class="faq-question">Q. 예약 없이 방문 가능한가요?</span>
+                <p style="margin-bottom: 0;">A. VIP 고객 및 사전 예약者优先입니다. 원활한 이용을 위해 반드시 연락 후 방문하시기 바랍니다.</p>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="container" style="text-align: center; padding: 100px 0;">
+            <h2 style="border: none; font-size: 3rem; margin-bottom: 20px;">Ready to Upgrade?</h2>
+            <p>망설임은 기회를 잃게 합니다. 지금 바로 최고의 선택을 하십시오.</p>
+            <a href="tel:010-0000-0000" class="btn-gold" style="font-size: 1.2rem; padding: 20px 40px;">Contact Now</a>
+        </section>
+    </main>
+
+    <footer style="border-top: 1px solid var(--color-border); padding: 40px 0; margin-top: 40px;">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+            <div style="color: var(--color-text-sub); font-size: 0.8rem;">
+                &copy; 2024 NOIR SEOUL. All Rights Reserved.<br>
+                Designed for the Bold.
+            </div>
+            <div style="display: flex; gap: 20px;">
+                <a href="#" style="color: var(--color-text-sub); font-size: 0.8rem;">Privacy Policy</a>
+                <a href="#" style="color: var(--color-text-sub); font-size: 0.8rem;">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

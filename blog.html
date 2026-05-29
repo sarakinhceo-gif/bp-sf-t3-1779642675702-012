@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    <title>강남 셔츠룸의 민낯 | 진짜 대우는 이곳에서 시작된다</title>
+    <meta name="description" content="마포의 평범한 오피는 지겹지 않으세요? 강남 셔츠룸이 왜 유흥의 정점인지, 그리고 왜 '서버 웜업'이 필수인지 솔직하게 파헤칩니다.">
+    <meta name="keywords" content="강남 셔츠룸, 유흥 현실, 마포 vs 강남, 서버 웜업, 럭셔리 라운지, 강남역 오피">
+    <link rel="canonical" href="https://sf-t3-1779642675702-012.pages.dev">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sf-t3-1779642675702-012.pages.dev">
+    <meta property="og:title" content="강남 셔츠룸의 민낯 | 진짜 대우는 이곳에서 시작된다">
+    <meta property="og:description" content="마포의 평범함을 버리고 강남의 무자비한 화려함 속으로.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/000000/D4AF37?text=SEOUL+NOIR">
+    <meta property="og:site_name" content="SEOUL NOIR">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sf-t3-1779642675702-012.pages.dev">
+    <meta property="twitter:title" content="강남 셔츠룸의 민낯">
+    <meta property="twitter:description" content="유흥의 격을 논하다.">
+
+    <style>
+        /* DESIGN SYSTEM: NOIR-GOLD EDITORIAL */
+        :root {
+            --color-bg: #0a0a0a;
+            --color-text: #e0e0e0;
+            --color-gold: #D4AF37;
+            --color-gold-dim: #8a7020;
+            --color-white: #ffffff;
+            --color-black: #000000;
+            --font-main: 'Helvetica Neue', 'Arial', sans-serif;
+            --font-serif: 'Georgia', 'Times New Roman', serif;
+            --spacing-unit: 1rem;
+            --container-width: 1200px;
+            --transition-speed: 0.3s;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background-color: var(--color-bg);
+            color: var(--color-text);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4 {
+            font-family: var(--font-serif);
+            color: var(--color-white);
+            font-weight: 400;
+            letter-spacing: -0.02em;
+        }
+
+        h1 { font-size: 3.5rem; line-height: 1.1; margin-bottom: 1.5rem; }
+        h2 { font-size: 2.5rem; margin-bottom: 1rem; color: var(--color-gold); }
+        h3 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+        p { font-size: 1.125rem; margin-bottom: 1.5rem; color: #b0b0b0; }
+        
+        a { color: var(--color-gold); text-decoration: none; transition: var(--transition-speed); }
+        a:hover { color: var(--color-white); text-decoration: underline; }
+
+        /* LAYOUT */
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 var(--spacing-unit);
+        }
+
+        section { padding: 4rem 0; }
+
+        /* HEADER & NAV */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+            z-index: 1000;
+            padding: 1rem 0;
+        }
+
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            color: var(--color-gold);
+            font-weight: bold;
+            letter-spacing: 0.05em;
+        }
+
+        .nav-links { display: flex; gap: 2rem; }
+        .nav-links a { color: var(--color-white); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; }
+        .nav-links a:hover { color: var(--color-gold); text-decoration: none; }
+
+        /* HAMBURGER MENU */
+        .hamburger { display: none; cursor: pointer; flex-direction: column; gap: 5px; }
+        .hamburger span { width: 25px; height: 2px; background-color: var(--color-gold); transition: var(--transition-speed); }
+        
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hamburger { display: flex; }
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 2rem; }
+        }
+
+        /* CONTENT STYLES */
+        .article-meta {
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            color: var(--color-gold-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .editorial-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .editorial-content p {
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .highlight-box {
+            border-left: 3px solid var(--color-gold);
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--color-white);
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--color-gold);
+            color: var(--color-black);
+            padding: 1rem 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-top: 2rem;
+            border: none;
+            cursor: pointer;
+        }
+        .cta-button:hover {
+            background-color: var(--color-white);
+            text-decoration: none;
+        }
+
+        /* FAQ SECTION */
+        .faq-section {
+            background-color: #111;
+            margin-top: 4rem;
+        }
+        .faq-item {
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding: 1.5rem 0;
+        }
+        .faq-question {
+            font-weight: bold;
+            color: var(--color-gold);
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        /* FOOTER */
+        footer {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding: 2rem 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-wrapper">
+            <a href="#" class="logo">SEOUL NOIR</a>
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Locations</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main style="margin-top: 80px;">
+        
+        <!-- Hero Section -->
+        <section>
+            <div class="container">
+                <div class="article-meta">
+                    <span>Blog / Insight</span> &bull; <span>Updated 2024.05.21</span> &bull; <span>By Editor</span>
+                </div>
+                <h1>왜 아직도 마포에서<br>시간을 낭비하나요?</h1>
+                <p class="lead" style="font-size: 1.5rem; color: var(--color-white); margin-bottom: 2rem;">
+                    강남 셔츠룸은 단순한 유흥이 아닙니다. <br>
+                    그것은 클래스의 차이이며, 당신이 마땅히 누려야 할 대우의 시작점입니다.
+                </p>
+            </div>
+        </section>
+
+        <!-- Editorial Content -->
+        <section class="editorial-content">
+            <div class="container">
+                <p>
+                    솔직해집시다. 마포의 오피들은 уже 지겹지 않나요? 좁은 방, 어두운 조명, 그리고 "서비"라는 이름 아래 감춰진 냉랭함. 당신은 그곳에서 '고객'이 아니라 그저 '단가'로 취급받고 있을 뿐입니다.
+                </p>
+                <p>
+                    하지만 <strong>강남 셔츠룸</strong>의 공기는 다릅니다. 이곳에서는 당신의 존재 자체가 시스템의 중심이 됩니다. 화려한 네온사인이 비추는 강남역의 밤은 냉정하지만, 그 냉정함 속에서 진정한 사치는 피어납니다.
+                </p>
+
+                <div class="highlight-box">
+                    "마포의 평범함을 버리고 강남의 무자비한 화려함 속으로 들어오세요. 여기서 만족은 선택이 아닌 필수입니다."
+                </div>
+
+                <h2>서버 웜업: 시스템의 완벽함</h2>
+                <p>
+                    많은 이들이 '서버 웜업'을 단순한 대기 시간으로 오해합니다. 틀렸습니다. 이는 당신의 도착을 알리는 의례이며, 가장 완벽한 준비 태세를 갖추기 위한 과정입니다.
+                </p>
+                <p>
+                    우리가 운영하는 강남 셔츠룸은 servers 를 단순히 배치하는 것이 아니라, 당신의 취향을 분석하고 가장 완벽한 매칭을 위해 준비시킵니다. 이것이 바로 <strong>럭셔리 유흥</strong>과 일반 유흥을 가르는 기준선입니다. 당신은 기다리는 것이 아니라, 준비되는 시간을 즐기는 것입니다.
+                </p>
+
+                <h2>선택은 당신의 몫이지만, 결과는 정해져 있습니다</h2>
+                <p>
+                    여전히 망설이시나요? 혹시 가격 때문인가요? 혹은 익숙함 때문인가요?
+                    기억하세요. 값싼 만족은 결국 더 큰 허무함으로 돌아옵니다. 강남의 밤은 당신에게 더 높은 수준의 경험을 요구합니다.
+                </p>
+                <p>
+                    지금 바로 연결하세요. 당신의今晚 (오늘 밤) 이 평범하지 않도록, 우리가 보장합니다.
+                </p>
+
+                <a href="tel:010-0000-0000" class="cta-button">지금 바로 예약하기</a>
+
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 3rem;">자주 묻는 질문 (FAQ)</h2>
+                
+                <div class="faq-item">
+                    <span class="faq-question">Q. 마포에서 강남까지 이동이 불편한가요?</span>
+                    <p style="margin-bottom: 0; font-size: 1rem;">A. 강남역 중심부에 위치하여 접근성이 매우 뛰어납니다. 또한 전용 셔틀 또는 택시 지원을 통해 이동의 불편함을 최소화합니다. 거리보다 중요한 것은 도착했을 때의 분위기입니다.</p>
+                </div>
+
+                <div class="faq-item">
+                    <span class="faq-question">Q. 서버 웜업 시스템은 어떻게 운영되나요?</span>
+                    <p style="margin-bottom: 0; font-size: 1rem;">A. 예약 시 고객님의 선호 사항을 미리 접수하여, 도착 전에 가장 적합한 서버가 대기하도록 세팅합니다. 불필요한 대기 시간은 없으며, 즉시 최상의 서비스를 시작할 수 있습니다.</p>
+                </div>
+
+                <div class="faq-item">
+                    <span class="faq-question">Q.初次 방문자도 이용 가능한가요?</span>
+                    <p style="margin-bottom: 0; font-size: 1rem;">A. 물론입니다. 오히려 처음 오시는 분들에게 가장 큰 충격과 만족을 드립니다. 강남 셔츠룸의 매너와 시스템을 한번 체험하시면 다시는 다른 곳으로 가실 수 없을 것입니다.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SEOUL NOIR. All Rights Reserved.</p>
+            <p>본 사이트는 정보 제공을 목적으로 하며, 모든 이미지는 저작권법의 보호를 받습니다.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
